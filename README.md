@@ -35,9 +35,6 @@ In the command line section at the bottom of the page, type the following comman
 
 &gt;~/environment/devlabs/prediction $  _python ./download_artifacts.py_
 
-&gt;~/environment/devlabs/prediction $  _aws s3 cp s3://sagemaker-demo-sydsummit/artifacts/102flowers-0005.params ./_
-
-&gt;~/environment/devlabs/prediction $  _aws s3 cp s3://sagemaker-demo-sydsummit/artifacts/102flowers-symbol.json ./_
 
 Now, it&#39;s time to deploy the first function (prediction function). On the right side of the console, click on &quot;AWS Resources&quot; -&gt; Local Functions -&gt; prediction. Right click on &quot;prediction&quot; function then click &quot;deploy&quot;.
 
