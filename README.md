@@ -29,7 +29,11 @@ After you click on the &quot;Deploy CloudFormation Template&quot; in the noteboo
 
 In the command line section at the bottom of the page, type the following commands:
 
-&gt;~/environment $  _cd SydSummit/prediction/_
+&gt;~/environment $  _sudo pip install boto3_
+
+&gt;~/environment $  _cd devlabs; sudo pip install boto3_
+
+&gt;~/environment $  _cd Devlabs/prediction/_
 
 &gt;~/environment/SydSummit/prediction $  _aws s3 cp s3://sagemaker-demo-sydsummit/artifacts/102flowers-0005.params ./_
 
