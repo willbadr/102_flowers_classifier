@@ -15,7 +15,7 @@ Data loading is an important part of any machine learning system. When we work w
 
 You will build a deep learning model that recognizes different flower species from a 102 different categories. You will build, train and deploy the model using Amazon Sagemaker, MXNet Framework and the Oxford 102-Flower Category Dataset.
 
-NOTE: I will be using Oregon (us-west-2) region for the demo
+NOTE: You will be using Oregon (us-west-2) region for the demo
 
 ### Step1 (Model Training):
 
